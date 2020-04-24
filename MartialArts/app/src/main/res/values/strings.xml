@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Martial Arts</string>
+    <string name="my_name">Yeremia Andrew Sumolang</string>
+    <string name="my_email">kurikarakenjou@gmail.com</string>
+    <string name="my_profile">My Profile</string>
+    <string name="martial_arts_name">Nama Bela Diri</string>
+    <string name="martial_arts_detail">Detail Bela Diri</string>
+</resources>
