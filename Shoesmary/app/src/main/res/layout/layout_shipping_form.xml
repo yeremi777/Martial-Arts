@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="SHIPPING DETAILS"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="7dp"
+        android:background="@drawable/shape_white"
+        android:ems="10"
+        android:fontFamily="@font/open_sans_light_italic"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="14dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="12dp"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_begin="176dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/shape_white"
+        android:ems="10"
+        android:fontFamily="@font/open_sans_light_italic"
+        android:hint="Last name"
+        android:inputType="textPersonName"
+        android:paddingLeft="14dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="12dp"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape_white"
+        android:ems="10"
+        android:hint="Address line"
+        android:inputType="textPersonName"
+        android:paddingLeft="14dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="12dp"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="7dp"
+        android:background="@drawable/shape_white"
+        android:ems="10"
+        android:hint="Town / City"
+        android:inputType="textPersonName"
+        android:paddingLeft="14dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="12dp"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:background="@drawable/shape_white"
+        android:ems="10"
+        android:hint="Postcode"
+        android:inputType="textPersonName"
+        android:paddingLeft="14dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="12dp"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName4" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape_white"
+        android:ems="10"
+        android:hint="Country"
+        android:inputType="textPersonName"
+        android:paddingLeft="14dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="12dp"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="7dp"
+        android:background="@drawable/shape_white"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:paddingLeft="14dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="12dp"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_white"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="textPersonName"
+        android:paddingLeft="14dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="12dp"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName7" />
+</androidx.constraintlayout.widget.ConstraintLayout>
